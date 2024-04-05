@@ -9,3 +9,12 @@ function removeVowels(str) {
   }
   return output.join("");
 }
+function removeVowels2(str) {
+  let vowels = "aeiouAEIOU";
+  let output = "";
+  for (let i = 0; i < str.length; i++) {
+    if (!vowels.includes(str[i])) output += str[i];
+  }
+  return output;
+}
+  
