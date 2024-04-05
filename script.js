@@ -18,3 +18,12 @@ function removeVowels2(str) {
   return output;
 }
   
+
+// Ejercicio 13
+// Crear una función en JavaScript llamada removeVowels (Remover Vocales) que reciba como parámetro un string y retorne un nuevo string que sea igual que el recibido pero sin las vocales.
+// Ejemplos:
+
+// Input ------------------> Output
+// removeVowels("Hola") ---> "Hl"
+// removeVowels("Hola Mundo") ---> "Hl Mnd"
+// removeVowels("Hola URUGUAY") ---> "Hl RGY"
